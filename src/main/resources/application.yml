@@ -1,0 +1,12 @@
+debug: true
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://ajajanas:ajajanas@ajajanas.twyihs3.mongodb.net/ajajanas
+      database: ajajanas
+logging:
+  level:
+    org:
+      springframework:
+        boot:
+          autoconfigure: ERROR
